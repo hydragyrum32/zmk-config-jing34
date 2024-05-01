@@ -78,6 +78,11 @@
                 layers = <0>;
                 bindings = <&bootloader>;
             };
+
+            combo_enter {
+                bindings = <&kp ENTER>;
+                key-positions = <26 17>;
+            };
         };
     };
 
@@ -103,7 +108,7 @@
 &kp Q       &kp W       &kp E        &kp R          &kp T        &kp Y  &kp U        &kp I        &kp O       &kp P
 &ht LGUI A  &ht LALT S  &ht LCTRL D  &ht LSHFT F    &kp G        &kp H  &ht RSHFT J  &ht RCTRL K  &ht LALT L  &ht RGUI SEMI
 &kp Z       &kp X       &kp C        &kp V          &kp B        &kp N  &kp M        &kp COMMA    &kp DOT     &kp FSLH
-                                     &kp BACKSPACE  &lt 1 SPACE         &lt 2 ENTER  &lt 3 MINUS
+                                     &kp BACKSPACE  &lt 1 SPACE         &mo 2        &lt 3 MINUS
             >;
         };
 
