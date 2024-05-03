@@ -127,16 +127,16 @@
             bindings = <
 &kp LS(N1)  &kp LS(N2)  &kp LS(N3)  &kp LS(N4)  &kp LS(N5)       &kp LS(N6)  &kp LS(N7)  &kp LS(N8)  &kp LS(N9)  &kp LS(N0)
 &kp LGUI    &kp LALT    &kp LCTRL   &kp LSHFT   &rgb_ug RGB_TOG  &kp LEFT    &kp DOWN    &kp UP      &kp RIGHT   &to 4
-&none       &none       &none       &none       &none            &kp UNDER   &kp PLUS    &kp LBRC    &kp RBRC    &kp TILDE
+&none       &none       &none       &kp F14     &none            &kp UNDER   &kp PLUS    &kp LBRC    &kp RBRC    &kp TILDE
                                     &trans      &trans                       &trans      &trans
             >;
         };
 
         nav_layer {
             bindings = <
-&kp F1    &kp F2    &kp F3      &kp F4     &kp F5   &kp F6           &kp F7             &kp F8           &kp F9     &kp F10
-&kp LGUI  &kp LALT  &kp LCTRL   &kp LSHFT  &kp F11  &kp F12          &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp RIGHT  &kp PG_DN
-&none     &none     &kp C_MUTE  &none      &kp DEL  &kp PRINTSCREEN  &bl BL_TOG         &none            &none      &kp BACKSLASH
+&kp F1    &kp F2    &kp F3      &kp F4     &kp F5   &kp F6           &kp F7             &kp F8           &kp F9      &kp F10
+&kp LGUI  &kp LALT  &kp LCTRL   &kp LSHFT  &kp F11  &kp F12          &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_NEXT  &kp PG_DN
+&none     &none     &kp C_MUTE  &none      &kp DEL  &kp PRINTSCREEN  &bl BL_TOG         &none            &none       &kp BACKSLASH
                                 &trans     &trans                    &trans             &trans
             >;
         };
